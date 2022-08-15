@@ -11,6 +11,8 @@ Algoritmos e Programacao: Algoritmos estruturas lineares
 ## Estrutura de Pastas
 - /Semana/
     + /Projeto/
-        - /src
-        - /bin
-        - /notes
+        - /exer1
+            + /src
+        - /exer3 
+            + /src
+        - /anotacoes
