@@ -11,12 +11,14 @@ public class Formas {
     }
     public Formas(){
         Circulo[] circulos = new Circulo[5];
-        for(int i = 0; i < circulos.length; i++)
-            circulos[i] = new Circulo((int) (Math.random()* 10), (int) (Math.random()*10), (int)(Math.random()*10+1));
+
     }
 
     public Circulo[] getCirculos() {
         return circulos;
+    }
+    public void setCirculo(Circulo[] circ){
+        this.circulos = circ;
     }
 
 }
