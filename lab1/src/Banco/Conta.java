@@ -48,6 +48,7 @@ public class Conta {
         }
         else
             System.out.println("Valor Sacado: " + valor);
+        saldo -= valor;
         System.out.println("Operação Concluída com Sucesso!");
         return true;
     }
