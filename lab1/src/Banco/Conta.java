@@ -59,7 +59,7 @@ public class Conta {
                 "saldo=" + saldo +
                 '}';
     }
-    public void Conta(String nome){
+    public void  C(String nome){
         this.nome = nome;
     }
 }

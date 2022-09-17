@@ -1,10 +1,10 @@
-package Cinema;
-import Utils.Utils;
+package cinema;
 
 public class Sala {
     private Cadeira[][] cadeiras;
-    private Utils utils = new Utils();
-    private int numero, num_colunas, num_fileiras;
+    private int numero;
+    private final int num_colunas;
+    private final int num_fileiras;
     private String status, filme;
 
     public Sala(int numero, int num_colunas, int num_fileiras) {

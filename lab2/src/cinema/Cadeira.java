@@ -1,7 +1,7 @@
-package Cinema;
+package cinema;
 
 public class Cadeira {
-    private int fileira, colula;
+    private int colula, fileira;
     private String nome;
 
     public Cadeira(int fileira, int colula, String nome) {
